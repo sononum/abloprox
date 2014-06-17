@@ -1,6 +1,13 @@
 # abloprox
 
 This is my personal home-proxy to filter and clean the web.
+It will filter http and https requests to domains given in the blocklists.
+
+Usage: `ruby prxy.rb [port]`
+
+The default port is `3126`
+
+Now, change proxy settings for http and https to 127.0.0.1:3126 (or whereever you bound to)
 
 The MIT License (MIT)
 
