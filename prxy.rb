@@ -61,8 +61,16 @@ class AbloProx < WEBrick::HTTPProxyServer
   
 end
 
-#s = AbloProx.new(:Port => 8008, :AccessLog => ['acces_log', WEBrick::AccessLog::COMMON_LOG_FORMAT], :Logger => WEBrick::Log::new("/dev/null", 7))
-s = AbloProx.new(:Port => 8008, :AccessLog => [])
+if ARGV.empty?
+  port = 3126
+elsif ARGV.size == 1
+  port = ARGV[0].to_i
+else
+  puts 'Usage: prxy.rb [port]'
+  exit 1
+end
+
+s = AbloProx.new(:Port => port, :AccessLog => [])
 
 # Shutdown functionality
 trap("INT"){s.shutdown}
