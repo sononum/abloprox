@@ -1,0 +1,3 @@
+# a collection of sites to be blocked due to bad karma
+
+facebook.com

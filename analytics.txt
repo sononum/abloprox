@@ -1,0 +1,12 @@
+# a collection of sites to block due to analytics and so on
+
+
+ivwbox.de
+google-analytics.com
+webtrekk.net
+ioam.de
+googletagmanager.com
+nuggad.net
+krxd.net
+sitestat.com
+w55c.net
