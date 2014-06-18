@@ -16,3 +16,9 @@ scorecardresearch.com
 demdex.net
 mktoresp.com
 js-agent.newrelic.com
+optimizely.com
+wemfbox.ch
+omtrdc.net
+meetrix.net
+dynamicyield.com
+event-media-solutions.ch
