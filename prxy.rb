@@ -31,15 +31,15 @@ class AbloProx < WEBrick::HTTPProxyServer
       @blocklists.each do |f|
         add_blocklist f
       end
-      r = WEBrick::HTTPResponse.new( { :HTTPVersion => "1.1"} )
-      r.body = "reloaded blocklists"
-      r.status = 200
-      return r
+      res.status = 200
+      res.body = "reloaded blocklists: #{@blocklists.to_a.join(', ')}. #{@blocked.count} hosts blocked."
+      return
     end
       
     if blocked? req.host
       logger.info "BLOCK #{req.host}"
-      return no_response
+      res.status = 204
+      res.keep_alive = false
     else
       super
     end
@@ -49,7 +49,8 @@ class AbloProx < WEBrick::HTTPProxyServer
     host = req.header["host"].first
     if blocked? host
       logger.info "BLOCK #{host}"
-      return no_response
+      res.status = 204
+      res.keep_alive = false
     else
       super
     end
@@ -65,12 +66,6 @@ class AbloProx < WEBrick::HTTPProxyServer
       h.shift
     end
     false
-  end
-  
-  def no_response
-    r = WEBrick::HTTPResponse.new( { :HTTPVersion => "1.1"} )
-    r.status = 204
-    r
   end
   
 end
