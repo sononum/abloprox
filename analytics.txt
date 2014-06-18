@@ -5,6 +5,7 @@ google-analytics.com
 webtrekk.net
 ioam.de
 googletagmanager.com
+googletagservices.com
 nuggad.net
 krxd.net
 sitestat.com
@@ -24,4 +25,5 @@ dynamicyield.com
 event-media-solutions.ch
 vgwort.de
 etracker.de
-
+adobetag.com
+parsely.com
