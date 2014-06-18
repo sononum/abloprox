@@ -12,3 +12,7 @@ w55c.net
 traffichaus.com
 doubleclick-analytics.com
 advidi.com
+scorecardresearch.com
+demdex.net
+mktoresp.com
+js-agent.newrelic.com
