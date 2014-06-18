@@ -7,22 +7,36 @@ class AbloProx < WEBrick::HTTPProxyServer
   def initialize(options)
     super
     @blocked = Set.new
+    @blocklists = Set.new
   end
   
   def add_blocklist(filename)
+    logger.info("loading blocklist #{filename}")
     File.open(filename).each_line do |line|
       block line
     end
+    @blocklists.add? filename
   end
   
   def block(host)
     host.strip!
     return if host == nil || host.empty? || host.start_with?('#')
-    @blocked.add? host.strip
+    logger.warn("not adding #{host} as it is already blocked") unless @blocked.add? host
   end
   
   def do_GET(req, res)
-    #puts req.host
+    if "reload.proxy" == req.host
+      logger.info "reloading blocklists"
+      @blocked = Set.new
+      @blocklists.each do |f|
+        add_blocklist f
+      end
+      r = WEBrick::HTTPResponse.new( { :HTTPVersion => "1.1"} )
+      r.body = "reloaded blocklists"
+      r.status = 200
+      return r
+    end
+      
     if blocked? req.host
       logger.info "BLOCK #{req.host}"
       return no_response

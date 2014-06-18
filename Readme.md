@@ -3,11 +3,19 @@
 This is my personal home-proxy to filter and clean the web.
 It will filter http and https requests to domains given in the blocklists.
 
+## Usage & Installation
+
 Usage: `ruby prxy.rb [port]`
 
 The default port is `3126`
 
-Now, change proxy settings for http and https to 127.0.0.1:3126 (or whereever you bound to)
+Now, change proxy settings for http and https to 127.0.0.1:3126 (or wherever you bound to)
+
+## Reloading blocklists
+
+send a request to `http://reload.proxy`
+
+## License
 
 The MIT License (MIT)
 
