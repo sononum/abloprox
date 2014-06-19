@@ -11,9 +11,14 @@ The default port is `3126`
 
 Now, change proxy settings for http and https to 127.0.0.1:3126 (or wherever you bound to)
 
-## Reloading blocklists
+## Controlling abloprox
 
-send a request to `http://reload.proxy`
+abloprox can be controlled via http requests to `http://ablo.prox`:
+
+* Reloading Blocklist: `http://ablo.prox?cmd=reload`
+* Start Logging: `http://ablo.prox?cmd=log&v=1`
+* Stop Logging: `http://ablo.prox?cmd=log&v=0`
+* Log Output: `http://ablo.prox?cmd=info` 
 
 ## License
 

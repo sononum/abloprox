@@ -2,12 +2,17 @@ require 'webrick'
 require 'webrick/httpproxy' 
 require 'set'
 
+CRLF = "\r\n"
+
 class AbloProx < WEBrick::HTTPProxyServer
   
   def initialize(options)
     super
     @blocked = Set.new
     @blocklists = Set.new
+    @logging = false
+    @log_allowed  = Set.new
+    @log_block    = Set.new
   end
   
   def add_blocklist(filename)
@@ -25,22 +30,45 @@ class AbloProx < WEBrick::HTTPProxyServer
   end
   
   def do_GET(req, res)
-    if "reload.proxy" == req.host
-      logger.info "reloading blocklists"
-      @blocked = Set.new
-      @blocklists.each do |f|
-        add_blocklist f
+    if "ablo.prox" == req.host
+      if cmd = req.query['cmd']
+        if "reload" == cmd
+          logger.info "reloading blocklists"
+          reload_blocklists(req, res)
+        elsif "log" == cmd
+          v = req.query['v'] == '1' ? true : false
+          if v
+            info          = "start logging"
+            @log_allowed  = Set.new
+            @log_block    = Set.new
+            @logging      = true
+          else
+            info          = "stop logging"
+            @log_allowed  = nil
+            @log_block    = nil
+            @logging      = false
+          end
+          logger.info info
+          res.status  = 200
+          res.body    = info
+        elsif "info" == cmd
+          res.status = 200
+          res.body = "Blocked Hosts:" + CRLF + CRLF
+          res.body += @log_block.to_a.join(CRLF)
+          res.body += CRLF + CRLF + "Allowed Hosts:" + CRLF + CRLF
+          res.body += @log_allowed.to_a.join(CRLF)
+        end
       end
-      res.status = 200
-      res.body = "reloaded blocklists: #{@blocklists.to_a.join(', ')}. #{@blocked.count} hosts blocked."
       return
     end
-      
+        
     if blocked? req.host
       logger.info "BLOCK #{req.host}"
       res.status = 204
       res.keep_alive = false
+      @log_block.add? req.host if @logging
     else
+      @log_allowed.add? req.host if @logging
       super
     end
   end
@@ -66,6 +94,15 @@ class AbloProx < WEBrick::HTTPProxyServer
       h.shift
     end
     false
+  end
+  
+  def reload_blocklists(req, res)
+    @blocked = Set.new
+    @blocklists.each do |f|
+      add_blocklist f
+    end
+    res.status = 200
+    res.body = "reloaded blocklists: #{@blocklists.to_a.join(', ')}. #{@blocked.count} hosts blocked."
   end
   
 end
