@@ -1,3 +1,6 @@
 # a collection of sites to be blocked due to bad karma
 
 facebook.com
+connect.facebook.net
+addthis.com
+visualwebsiteoptimizer.com
