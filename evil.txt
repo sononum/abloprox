@@ -4,3 +4,4 @@ facebook.com
 connect.facebook.net
 addthis.com
 visualwebsiteoptimizer.com
+liveperson.net
