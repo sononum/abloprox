@@ -20,6 +20,23 @@ abloprox can be controlled via http requests to `http://ablo.prox`:
 * Stop Logging: `http://ablo.prox?cmd=log&v=0`
 * Log Output: `http://ablo.prox?cmd=info` 
 
+## Launch in background
+
+### Debian GNU/Linux
+
+Preliminaries [daemon](https://packages.debian.org/wheezy/daemon):
+
+    $ apt-get install deamon
+
+[Crontab](https://packages.debian.org/wheezy/cron)
+
+    @reboot daemon --name abloprox --chdir=/srv/abloprox --stdout=prxy.log --stderr=prxy.log -- ruby prxy.rb
+
+Check status
+
+    $ daemon --verbose --name abloprox --running
+
+
 ## License
 
 The MIT License (MIT)
