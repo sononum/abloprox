@@ -120,6 +120,7 @@ s = AbloProx.new(:Port => port, :AccessLog => [])
 
 # Shutdown functionality
 trap("INT"){s.shutdown}
+trap("TERM"){s.shutdown}  # terminate on kill
 
 s.add_blocklist 'adservers.txt'
 s.add_blocklist 'analytics.txt'
