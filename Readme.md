@@ -50,6 +50,23 @@ enter it's URL into the OS/browser proxy configuration:
 3. ensure http://wpad/wpad.dat contains a PAC file similar the one above.
 
 
+## Launch in background
+
+### Debian GNU/Linux
+
+Preliminaries [daemon](https://packages.debian.org/wheezy/daemon):
+
+    $ apt-get install deamon
+
+[Crontab](https://packages.debian.org/wheezy/cron)
+
+    @reboot daemon --name abloprox --chdir=/srv/abloprox --stdout=prxy.log --stderr=prxy.log -- ruby prxy.rb
+
+Check status
+
+    $ daemon --verbose --name abloprox --running
+
+
 ## License
 
 The MIT License (MIT)
