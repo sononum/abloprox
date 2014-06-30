@@ -9,6 +9,7 @@ analytics.edgesuite.net
 api.wolframalpha.com
 cdn-tpn.c4tw.net
 cdn.api.twitter.com
+counter.scribblelive.com
 cpix.daserste.de
 dccdn.de
 demdex.net
@@ -22,6 +23,7 @@ google-analytics.com
 google.com
 googletagmanager.com
 googletagservices.com
+gscounters.us1.gigya.com
 i22.de
 ioam.de
 ivwbox.de
@@ -49,6 +51,7 @@ stats.cnevids.com
 stats.wired.com
 symcb.com
 symcd.com
+t4ft.de
 talkteria.de
 telekom-dienste.de
 traffichaus.com
