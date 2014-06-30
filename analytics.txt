@@ -50,7 +50,6 @@ sitestat.com
 stats.cnevids.com
 stats.wired.com
 symcb.com
-symcd.com
 t4ft.de
 talkteria.de
 telekom-dienste.de
@@ -63,6 +62,4 @@ web-track.telekom-dienste.de
 webtrekk.net
 wemfbox.ch
 www.assoc-amazon.de
-www.wolframalpha.com
 www2.stats4free.de
-www2.wolframalpha.com
