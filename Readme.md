@@ -66,6 +66,32 @@ Check status
 
     $ daemon --verbose --name abloprox --running
 
+### OS X
+
+Someone might want to start _abloprox_ at login. To do so, add a LaunchAgent plist configuration-file into `~/Library/LaunchAgents`. The file name should help you to identify the purpose, eg. `com.example.abloprox.plist`.
+
+Example Configuration:
+
+    <?xml version="1.0" encoding="UTF-8"?>
+		<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+		<plist version="1.0">
+		<dict>
+			<key>Label</key>
+			<string>com.example.abloprox</string>
+			<key>ProgramArguments</key>
+			<array>
+				<string>/usr/bin/ruby</string>
+				<string>/Users/<myusername>/abloprox/prxy.rb</string>
+			</array>
+			<key>RunAtLoad</key>
+			<true/>
+			<key>StandardErrorPath</key>
+			<string>/Users/<myusername>/abloprox/stderr.txt</string>
+			<key>WorkingDirectory</key>
+			<string>/Users/<myusername>/abloprox</string>
+		</dict>
+		</plist>
+
 
 ## License
 
