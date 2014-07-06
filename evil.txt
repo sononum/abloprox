@@ -1,5 +1,7 @@
 # a collection of sites to be blocked due to bad karma
 
+billiger.de
+userlike.com
 facebook.com
 connect.facebook.net
 addthis.com
@@ -7,4 +9,4 @@ visualwebsiteoptimizer.com
 liveperson.net
 amazon-adsystem.com
 mokonocdn.com
-
+bazaarvoice.com

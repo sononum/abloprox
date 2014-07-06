@@ -2,6 +2,7 @@
 
 ad4mat.de
 adnxs.com
+adserver.idg.de
 adobetag.com
 adserver.doccheck.com
 adspdbl.com
@@ -17,6 +18,8 @@ dccdn.de
 demdex.net
 doubleclick-analytics.com
 dynamicyield.com
+ekomi.de
+etracker.com
 etracker.de
 event-media-solutions.ch
 footprint.net
@@ -27,6 +30,7 @@ googletagmanager.com
 googletagservices.com
 gscounters.us1.gigya.com
 i22.de
+intelliad.de
 ioam.de
 ivwbox.de
 js-agent.newrelic.com
@@ -39,6 +43,7 @@ meetrix.net
 mktoresp.com
 ml314.com
 mobify.com
+mywai.de
 nuggad.net
 omtrdc.net
 optimizely.com
