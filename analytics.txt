@@ -1,8 +1,10 @@
 # a collection of sites to block due to analytics and so on
 
+ad4mat.de
 adnxs.com
 adobetag.com
 adserver.doccheck.com
+adspdbl.com
 advidi.com
 affinitad.com
 analytics.edgesuite.net
@@ -43,6 +45,7 @@ optimizely.com
 parsely.com
 pix.telekom.de
 plista.com
+powerlinks.com
 prophet.heise.de
 research.de.com
 scorecardresearch.com
