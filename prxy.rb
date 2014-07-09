@@ -57,6 +57,10 @@ class AbloProx < WEBrick::HTTPProxyServer
           res.body += @log_block.to_a.join(CRLF)
           res.body += CRLF + CRLF + "Allowed Hosts:" + CRLF + CRLF
           res.body += @log_allowed.to_a.join(CRLF)
+        elsif "update" == cmd
+          x = `git pull origin master`
+          res.body = x
+          res.status = 200
         end
       end
       return
