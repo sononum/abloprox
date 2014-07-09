@@ -18,6 +18,7 @@ dccdn.de
 demdex.net
 doubleclick-analytics.com
 dynamicyield.com
+#edigitalsurvey.com
 ekomi.de
 etracker.com
 etracker.de
@@ -29,6 +30,7 @@ google.com
 googletagmanager.com
 googletagservices.com
 gscounters.us1.gigya.com
+gwallet.com
 i22.de
 intelliad.de
 ioam.de
@@ -44,6 +46,7 @@ mktoresp.com
 ml314.com
 mobify.com
 mywai.de
+mxpnl.com
 nuggad.net
 omtrdc.net
 optimizely.com
@@ -52,6 +55,7 @@ pix.telekom.de
 plista.com
 powerlinks.com
 prophet.heise.de
+questionmarket.com
 research.de.com
 scorecardresearch.com
 sitestat.com
@@ -72,3 +76,6 @@ webtrekk.net
 wemfbox.ch
 www.assoc-amazon.de
 www2.stats4free.de
+zdbb.net
+zdtag.com
+
