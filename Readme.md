@@ -18,7 +18,8 @@ abloprox can be controlled via http requests to `http://ablo.prox`:
 * Reloading Blocklist: `http://ablo.prox?cmd=reload`
 * Start Logging: `http://ablo.prox?cmd=log&v=1`
 * Stop Logging: `http://ablo.prox?cmd=log&v=0`
-* Log Output: `http://ablo.prox?cmd=info` 
+* Log Output: `http://ablo.prox?cmd=info`
+* git pull origin master `http://ablo.prox?cmd=update` (for pulling blocklists from a git remote)
 
 
 ## Client configuration
