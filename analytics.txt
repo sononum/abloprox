@@ -1,12 +1,18 @@
 # a collection of sites to block due to analytics and so on
 
 ad4mat.de
+adclear.net
+adclear.de
+adclear.com
+adgoal.de
 adnxs.com
 adserver.idg.de
 adobetag.com
 adserver.doccheck.com
 adspdbl.com
 advidi.com
+advolution.de
+adx.chip.de
 affinitad.com
 analytics.edgesuite.net
 api.wolframalpha.com
@@ -58,6 +64,7 @@ prophet.heise.de
 questionmarket.com
 research.de.com
 scorecardresearch.com
+smartadcheck.de
 sitestat.com
 stats.cnevids.com
 stats.wired.com
@@ -76,6 +83,7 @@ webtrekk.net
 wemfbox.ch
 www.assoc-amazon.de
 www2.stats4free.de
+veeseo.com
 zdbb.net
 zdtag.com
 
