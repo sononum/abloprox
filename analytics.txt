@@ -15,7 +15,7 @@ advolution.de
 adx.chip.de
 affinitad.com
 analytics.edgesuite.net
-api.wolframalpha.com
+analytics.shareaholic.com
 cdn-tpn.c4tw.net
 cdn.api.twitter.com
 counter.scribblelive.com
@@ -86,4 +86,3 @@ www2.stats4free.de
 veeseo.com
 zdbb.net
 zdtag.com
-
