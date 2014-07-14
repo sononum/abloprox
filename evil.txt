@@ -11,6 +11,7 @@ amazon-adsystem.com
 mokonocdn.com
 bazaarvoice.com
 linkedin.net
+linkedin.com
 trivago.de
 trivago.com
 
