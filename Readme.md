@@ -57,7 +57,7 @@ enter it's URL into the OS/browser proxy configuration:
 
 Preliminaries [daemon](https://packages.debian.org/wheezy/daemon):
 
-    $ apt-get install deamon
+    $ apt-get install daemon
 
 [Crontab](https://packages.debian.org/wheezy/cron)
 
