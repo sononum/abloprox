@@ -35,10 +35,10 @@ enter it's URL into the OS/browser proxy configuration:
     // - https://de.wikipedia.org/wiki/Proxy_Auto-Config#Die_PAC-Datei
     // - http://www.proxypacfiles.com/proxypac/index.php?option=com_content&view=article&id=58&Itemid=87
     function FindProxyForURL(url, host) {
-      if (shExpMatch(host,"*.fritz.box")) return "DIRECT";        # don't proxy local network
-      if (shExpMatch(host,"*.local")) return "DIRECT";            # don't proxy local network
-      if (shExpMatch(host,"*.akamaistream.net")) return "DIRECT"; # don't proxy streams
-      return "PROXY <hostname_of_the_proxy>:3126"; // Default return condition is the proxy on host <hostname_of_the_proxy>.
+      if (shExpMatch(host,"*.fritz.box")) return "DIRECT";            // don't proxy local network
+      if (shExpMatch(host,"*.local")) return "DIRECT";                // don't proxy local network
+      if (shExpMatch(host,"*.akamaistream.net")) return "DIRECT";     // don't proxy streams
+      return "PROXY <hostname_of_the_proxy>:3126";                    // Default return condition is the proxy on host <hostname_of_the_proxy>.
     }
 
 
