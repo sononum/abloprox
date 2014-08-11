@@ -120,6 +120,7 @@ ad.ir.ru
 ad.jamba.net
 ad.jamster.co.uk
 ad.jetsoftware.com
+ad.keenspace.com
 ad.leadbolt.net
 ad.liveinternet.ru
 ad.lupa.cz
@@ -843,6 +844,7 @@ adsfac.net
 adsfac.us
 adshost1.com
 adshuffle.com
+adside.com
 adskape.ru
 adsklick.de
 adsmarket.com
@@ -998,6 +1000,7 @@ analytics.yahoo.com
 anchorfreesearch.com
 anm.intelli-direct.com
 annonser.dagbladet.no
+apdsrv.com
 apex-ad.com
 api.intensifier.de
 apture.com
@@ -1132,6 +1135,7 @@ bannerswap.com
 bannertesting.com
 bannery.cz
 bannieres.acces-contenu.com
+bans.adserver.co.il
 bans.bride.ru
 barnesandnoble.bfast.com
 baypops.com
@@ -1197,6 +1201,7 @@ campaign.bharatmatrimony.com
 canadatop.com
 caniamedia.com
 carbonads.com
+carbonads.net
 casalemedia.com
 casalmedia.com
 cash4banner.de
@@ -1678,6 +1683,7 @@ kissmetrics.com
 kliks.nl
 kompasads.com
 kontera.com
+kt-g.de
 ktu.sv2.biz
 lakequincy.com
 layer-ad.de
@@ -1923,6 +1929,7 @@ partners.priceline.com
 passion-4.net
 passport.baidu.com
 pay-ads.com
+pay-to-promote.com
 paycounter.com
 paydayasap.com
 paypopup.com
@@ -1950,6 +1957,7 @@ pillscash.com
 pimproll.com
 planetactive.com
 play4traffic.com
+playamedia.com
 playhaven.com
 plugrush.com
 pointroll.com
@@ -2094,6 +2102,7 @@ rose.ixbt.com
 rotabanner.com
 roxr.net
 rpxnow.com
+rtbpop.com
 rts.doublepimp.com
 ru-traffic.com
 ru4.com
