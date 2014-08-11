@@ -31,6 +31,7 @@ etracker.de
 event-media-solutions.ch
 footprint.net
 fwmrm.net
+gaug.es
 google-analytics.com
 google.com
 googletagmanager.com
