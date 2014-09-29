@@ -39,6 +39,7 @@ googletagmanager.com
 googletagservices.com
 gscounters.us1.gigya.com
 gwallet.com
+heapanalytics.com
 i22.de
 intelliad.de
 ioam.de
@@ -65,6 +66,7 @@ plista.com
 powerlinks.com
 prophet.heise.de
 questionmarket.com
+rdir.de
 reprize.de
 research.de.com
 scorecardresearch.com
@@ -72,6 +74,7 @@ smartadcheck.de
 sitestat.com
 stats.cnevids.com
 stats.wired.com
+stats.wp.com
 symcb.com
 t4ft.de
 talkteria.de
@@ -79,6 +82,7 @@ telekom-dienste.de
 traffichaus.com
 twenga.com
 twenga.de
+ubertags.com
 vinsight.de
 vgwort.de
 w55c.net
