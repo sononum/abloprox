@@ -18,6 +18,7 @@ analytics.edgesuite.net
 analytics.shareaholic.com
 cdn-tpn.c4tw.net
 cdn.api.twitter.com
+cedexis.com
 counter.scribblelive.com
 cpix.daserste.de
 dccdn.de
