@@ -22,6 +22,7 @@ cdn.api.twitter.com
 cedexis.com
 counter.scribblelive.com
 cpix.daserste.de
+cnt.wetteronline.de
 dccdn.de
 demdex.net
 dmtrk.com
@@ -58,6 +59,7 @@ mktoresp.com
 ml314.com
 mobify.com
 mpnrs.com
+mpstat.us
 mywai.de
 mxpnl.com
 nuggad.net
@@ -72,6 +74,7 @@ questionmarket.com
 rdir.de
 reprize.de
 research.de.com
+s290.mxcdn.net
 scorecardresearch.com
 smartadcheck.de
 sitestat.com
@@ -81,6 +84,7 @@ stats.wp.com
 symcb.com
 t4ft.de
 talkteria.de
+tags.tiqcdn.com
 telekom-dienste.de
 traffichaus.com
 twenga.com
@@ -94,6 +98,7 @@ w55c.net
 web-track.telekom-dienste.de
 webtrekk.net
 wemfbox.ch
+wodas.wetteronline.de
 www.assoc-amazon.de
 www2.stats4free.de
 zdbb.net
