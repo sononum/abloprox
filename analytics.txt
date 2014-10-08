@@ -7,6 +7,7 @@ adclear.com
 adgoal.de
 adnxs.com
 adserver.idg.de
+adobedtm.com
 adobetag.com
 adserver.doccheck.com
 adspdbl.com
@@ -22,6 +23,7 @@ counter.scribblelive.com
 cpix.daserste.de
 dccdn.de
 demdex.net
+dmtrk.com
 doubleclick-analytics.com
 dynamicyield.com
 #edigitalsurvey.com
@@ -79,6 +81,8 @@ telekom-dienste.de
 traffichaus.com
 twenga.com
 twenga.de
+urban-media.com
+veeseo.com
 vinsight.de
 vgwort.de
 w55c.net
@@ -87,6 +91,5 @@ webtrekk.net
 wemfbox.ch
 www.assoc-amazon.de
 www2.stats4free.de
-veeseo.com
 zdbb.net
 zdtag.com

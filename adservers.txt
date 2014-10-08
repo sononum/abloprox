@@ -278,6 +278,8 @@ adlantic.nl
 adlegend.com
 adlink.de
 adlog.com.com
+adloox.com
+adlooxtracking.com
 adm.ad.asap-asp.net
 admagnet.net
 admailtiser.com
@@ -369,6 +371,7 @@ ads.ask.com
 ads.aspalliance.com
 ads.associatedcontent.com
 ads.avazu.net
+ads.batpmturner.com
 ads.beenetworks.net
 ads.belointeractive.com
 ads.berlinonline.de
@@ -886,6 +889,7 @@ adtrak.net
 adtriplex.com
 adult-adv.com
 adultadvertising.com
+advice-ads.s3.amazonaws.com
 adv-adserver.com
 adv-banner.libero.it
 adv.cooperhosting.net
@@ -1023,6 +1027,7 @@ atwola.com
 auctionads.com
 auctionads.net
 audience2media.com
+audienceamplify.com
 audit.median.hu
 audit.webinform.hu
 auto-bannertausch.de
@@ -1459,6 +1464,7 @@ exit76.com
 exitexchange.com
 exitfuel.com
 exoclick.com
+exogripper.com
 experteerads.com
 exponential.com
 express-submit.de
@@ -1758,9 +1764,9 @@ media-adrunner.mycomputer.com
 media-servers.net
 media.ftv-publicite.fr
 media.funpic.de
+media1first.com
 media6degrees.com
 mediaarea.eu
-mediacharger.com
 mediadvertising.ro
 mediageneral.com
 mediamayhemcorp.com
@@ -1792,6 +1798,7 @@ mixpanel.com
 mixtraffic.com
 mlm.de
 mmismm.com
+moatads.com
 mobclix.com
 mocean.mobi
 modemspeedbooster.com
@@ -1819,6 +1826,7 @@ naiadsystems.com
 naj.sk
 namimedia.com
 nastydollars.com
+navigator.io
 navrcholu.cz
 nbjmp.com
 ndparking.com
@@ -1826,6 +1834,8 @@ nedstat.com
 nedstat.nl
 nedstatbasic.net
 nedstatpro.net
+nend.net
+neocounter.neoworx-blog-tools.net
 neocounter.net
 neoffic.com
 net-filter.com
