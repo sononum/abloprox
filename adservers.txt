@@ -1355,6 +1355,7 @@ creatives.as4x.tmcs.net
 creatives.livejasmin.com
 crispads.com
 criteo.com
+criteo.net
 crowdgravity.com
 crtv.mate1.com
 crwdcntrl.net
