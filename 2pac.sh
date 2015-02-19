@@ -33,11 +33,11 @@ var blackhole = "PROXY 0.0.0.0:65535";  // Safari on iOS let's through
 // blackhole = "PROXY 127.0.0.1:1234";  // Safari on iOS let's through. http://www.antd.org/files/os/iphone/proxy.pac
 blackhole = "PROXY 8.8.8.8:53";         // Google (sigh). http://shion.ca/ios/adblockpub.js via http://forums.macrumors.com/showpost.php?p=20626459&postcount=6
 
+var isActive = 1;
+
 function addHost(arr, host) {
   arr.unshift(host.replace(/(\.)/g,'\\\\\$1'));
 }
-
-var isActive = 1;
 
 var blackPat = function() {
   var a = new Array();
@@ -51,13 +51,10 @@ done
 
 cat <<InputComesFromHERE
   // console.log('black: ^(.+\.)?((' + a.join(')|(') + '))$' );
-  return new RegExp( '^(.+\.)?((' + a.join(')|(') + '))$' );
+  return new RegExp( '^(.+\.)?((' + a.join(')|(') + '))$', 'i' );
 }();
 
 function FindProxyForURL(url, host) {
-  url = url.toLowerCase();
-  host = host.toLowerCase();
-
   // Excellent kludge from Sean M. Burke:
   // Enable or disable no-ads for the current browser session.
   //
