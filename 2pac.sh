@@ -5,7 +5,7 @@
 # Works without any proxy.
 # Uses 8.8.8.8:53 (Google) as a black-hole.
 #
-# Inspired by 
+# Inspired by
 #    http://www.schooner.com/~loverso/no-ads/
 #    http://www.antd.org/files/os/iphone/proxy.pac
 #

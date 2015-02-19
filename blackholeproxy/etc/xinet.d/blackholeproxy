@@ -1,0 +1,16 @@
+# default: on
+# description: a blackhole HTTP proxy. https://github.com/mro/abloprox/tree/ablopac/blackholeproxy
+# inspired by: http://www.schooner.com/~loverso/no-ads/
+#
+service blackholeproxy
+{
+  disable     = no
+  type        = UNLISTED
+  id          = blackholeproxy-stream
+  socket_type = stream
+  protocol    = tcp
+  port        = 3421
+  server      = /usr/local/bin/blackholeproxy.sh
+  user        = nobody
+  wait        = no
+}
