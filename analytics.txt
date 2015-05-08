@@ -21,6 +21,7 @@ analytics.shareaholic.com
 cdn-tpn.c4tw.net
 cdn.api.twitter.com
 cedexis.com
+channeladvisor.com
 counter.scribblelive.com
 cpix.daserste.de
 cnt.wetteronline.de
@@ -30,6 +31,7 @@ dmtrk.com
 doubleclick-analytics.com
 dynamicyield.com
 #edigitalsurvey.com
+emsecure.net
 exactag.com
 ekomi.de
 etracker.com
@@ -52,6 +54,7 @@ ioam.de
 ivwbox.de
 js-agent.newrelic.com
 krxd.net
+levexis.com
 llnwd.net
 mathtag.com
 maxymiser.net
@@ -59,6 +62,7 @@ mediagraph.com
 meetrics.com
 meetrics.net
 meetrix.net
+metrigo.com
 mktoresp.com
 ml314.com
 mobify.com
@@ -67,8 +71,10 @@ mpstat.us
 mywai.de
 mxpnl.com
 nuggad.net
+nxtck.com
 omtrdc.net
 onescreen.net
+openx.net
 optimizely.com
 parsely.com
 pix.telekom.de
@@ -81,6 +87,7 @@ rdir.de
 reprize.de
 research.de.com
 s290.mxcdn.net
+sociomantic.com
 scorecardresearch.com
 smartadcheck.de
 sitestat.com
@@ -104,8 +111,10 @@ w55c.net
 web-track.telekom-dienste.de
 webtrekk.net
 wemfbox.ch
+wt-safetag.com
 wodas.wetteronline.de
 www.assoc-amazon.de
 www2.stats4free.de
+xplosion.de
 zdbb.net
 zdtag.com
