@@ -32,6 +32,7 @@ doubleclick-analytics.com
 dynamicyield.com
 #edigitalsurvey.com
 emsecure.net
+emetriq.de
 exactag.com
 ekomi.de
 etracker.com
@@ -53,6 +54,7 @@ intelliad.de
 ioam.de
 ivwbox.de
 js-agent.newrelic.com
+qualityclick.com
 krxd.net
 levexis.com
 llnwd.net
@@ -99,6 +101,7 @@ t4ft.de
 talkteria.de
 tags.tiqcdn.com
 telekom-dienste.de
+tiqcdn.com
 traffichaus.com
 twenga.com
 twenga.de
