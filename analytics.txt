@@ -20,6 +20,7 @@ analytics.edgesuite.net
 analytics.shareaholic.com
 cdn-tpn.c4tw.net
 cdn.api.twitter.com
+cdn.emetriq.de
 cedexis.com
 channeladvisor.com
 counter.scribblelive.com
@@ -30,6 +31,7 @@ demdex.net
 dmtrk.com
 doubleclick-analytics.com
 dynamicyield.com
+dyn.emetriq.de
 #edigitalsurvey.com
 m-pathy.com
 emsecure.net
@@ -107,6 +109,7 @@ traffichaus.com
 twenga.com
 twenga.de
 urban-media.com
+ups.xplosion.de
 veeseo.com
 ubertags.com
 uobsoe.com
