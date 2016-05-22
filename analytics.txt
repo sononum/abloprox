@@ -81,6 +81,7 @@ nxtck.com
 omtrdc.net
 onescreen.net
 openx.net
+wetteronline-d.openx.net
 optimizely.com
 parsely.com
 pix.telekom.de
