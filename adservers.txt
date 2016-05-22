@@ -1831,6 +1831,7 @@ oxado.com
 oxcash.com
 oxen.hillcountrytexas.com
 pagead.l.google.com
+pagead2.googlesyndication.com
 pagerank-estate-spb.ru
 pagerank-ranking.com
 pagerank-ranking.de
